@@ -1,0 +1,27 @@
+query User {
+  users {
+    id
+    name
+  }
+  # can make multiple call in one query
+  testError
+}
+
+mutation Login {
+  login(id: 1) {
+    name
+    sales {
+      package
+      date
+      attachment,
+    }
+  }
+}
+
+query Sale {
+  sales {
+    id
+    date
+    attachment
+  }
+}
