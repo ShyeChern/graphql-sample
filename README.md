@@ -1,6 +1,6 @@
 # Graphql Sample
 
-This is the sample graphql using apollo-server-express
+This is sample graphql using apollo-server-express
 
 [Changelog](CHANGELOG.md)
 
